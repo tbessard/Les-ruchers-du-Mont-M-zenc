@@ -1,0 +1,40 @@
+p{
+    color: gold;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+ul{
+    font-size: 2em;
+    color: gold;
+}
+li,a{
+    font-size: 1em;
+    color: gold;
+}
+.maclasse{
+    color: black;
+}
+
+h2{
+    font-size: 3em;
+    font-style: italic;
+    text-align: center;
+    background-color: gold;
+}
+h1{
+    font-size: 4em;
+    font-style: italic;
+    text-align: center;
+    color: gold;
+    padding: 150px;
+    background-image: url(ruches3.jpg);
+   background-size: cover;
+}
+.introduction{
+    font-weight: 700;
+}
+body{
+    background-image: url(ecran2.jpeg);
+    opacity: 1;
+}
