@@ -93,10 +93,11 @@ input{
     padding: 20px;
     border: 2px solid black;
     text-align: center;
-
 }
 label{
     color: gold;
     font-size: 3em;
 }
-
+select{
+    font-size: 2em;
+}
