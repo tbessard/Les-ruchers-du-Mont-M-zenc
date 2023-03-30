@@ -101,3 +101,23 @@ label{
 select{
     font-size: 2em;
 }
+.button{
+    font-size: 3em;
+    background-color: black;
+    padding: 40px;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+    align-items: center;
+    color: gold;
+}
+legend{
+    font-size: 3em;
+    color: gold;
+    border: 2px solid black;
+    background-color: black;
+    padding: 5px;
+}
+fieldset{
+    background-color: rgb(113, 84, 52);
+}

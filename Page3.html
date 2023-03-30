@@ -19,14 +19,20 @@
 
        <main>
         <form action="" method="get">
+        <fieldset>
+            <legend>Vos coordonnées</legend>
             <label for="prenom">Votre prénom</label> <br>
-            <input type="text" name="prenom" id="prenom"> <br>
+            <input type="text" name="prenom" id="prenom" required> <br>
             <label for="nom">Votre Nom</label><br>
-            <input type="text" name="nom" id="nom"> <br>
+            <input type="text" name="nom" id="nom" required> <br>
             <Label for="email">Votre E-mail</Label><br>
-            <input type="email" name="email" id="email"> <br>
+            <input type="email" name="email" id="email" autofocus required> <br>
             <label for="telephone">Votre numéro de téléphone</label><br>
-            <input type="tel" name="telephone" id="telephone"> <br>
+            <input type="tel" name="telephone" id="telephone" required> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact</legend>
             <label for="objet">Quel est l'objet de votre demande ?</label><br>
                 <select name="objet" id="objet">
                     <option value="renseignement">Obtenir un renseignement</option>
@@ -36,6 +42,8 @@
                 </select><br>
             <Label for="message">Votre message</Label><br>
             <textarea name="message" id="message" rows="20" cols="100"></textarea><br>
+        </fieldset>
+            <input class="button" type="submit" value="Envoyer">
         </form>
        </main>
        
