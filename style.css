@@ -84,3 +84,18 @@ td,th,caption{
     background-color: darkgoldenrod;
     text-align: center;
 }
+form{
+    margin: auto;
+    width: 45%;
+}
+input{
+    padding: 20px;
+    border: 2px solid black;
+    text-align: center;
+
+}
+label{
+    color: gold;
+    font-size: 3em;
+    
+}
